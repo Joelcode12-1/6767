@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sjBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="skinSophia" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fcd34d" stop-opacity="0.25" />
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#fdba74" />
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#451a03" />
+      <stop offset="100%" stop-color="#291204" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="300" height="340" fill="url(#sjBg)" rx="16" />
+
+  <!-- Studio Light Aura -->
+  <circle cx="150" cy="130" r="110" fill="#64748b" opacity="0.3" />
+
+  <!-- Back Hair Layer -->
+  <path d="M90,110 C80,180 75,260 85,320 C100,320 120,280 120,240 C120,200 180,200 180,240 C180,280 200,320 215,320 C225,260 220,180 210,110 Z" fill="url(#hairGrad)" />
+
+  <!-- Shoulders & Minimalist Dark Top -->
+  <path d="M55,340 C65,275 105,250 150,250 C195,250 235,275 245,340 Z" fill="#18181b" />
+  
+  <!-- Neck & Collarbone -->
+  <rect x="138" y="195" width="24" height="60" rx="4" fill="#fed7aa" />
+  <path d="M138,225 C146,233 154,233 162,225" stroke="#fba768" stroke-width="2" fill="none" />
+
+  <!-- Face Contour -->
+  <path d="M106,130 C106,90 194,90 194,130 C194,180 178,212 150,212 C122,212 106,180 106,130 Z" fill="url(#skinSophia)" />
+
+  <!-- Front Flowing Hair with Highlights -->
+  <path d="M96,110 C96,65 130,55 150,55 C170,55 204,65 204,110 C204,150 196,180 194,220 C190,200 190,140 186,115 C175,90 125,90 114,115 C110,140 110,200 106,220 C104,180 96,150 96,110 Z" fill="url(#hairGrad)" />
+  
+  <!-- Hair Strands Highlight -->
+  <path d="M130,68 C145,62 165,65 175,76" stroke="#78350f" stroke-width="2" fill="none" />
+  <path d="M102,140 C100,180 108,240 102,280" stroke="#78350f" stroke-width="2" fill="none" />
+  <path d="M198,140 C200,180 192,240 198,280" stroke="#78350f" stroke-width="2" fill="none" />
+
+  <!-- Eyebrows -->
+  <path d="M118,130 Q130,123 140,128" stroke="#451a03" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <path d="M160,128 Q170,123 182,130" stroke="#451a03" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+  <!-- Expressive Eyes -->
+  <ellipse cx="130" cy="140" rx="7.5" ry="5.5" fill="#ffffff" />
+  <circle cx="130" cy="140" r="3.8" fill="#451a03" />
+  <circle cx="131" cy="138" r="1.5" fill="#ffffff" />
+  <path d="M122,136 Q130,132 138,136" stroke="#291204" stroke-width="2" fill="none" />
+
+  <ellipse cx="170" cy="140" rx="7.5" ry="5.5" fill="#ffffff" />
+  <circle cx="170" cy="140" r="3.8" fill="#451a03" />
+  <circle cx="171" cy="138" r="1.5" fill="#ffffff" />
+  <path d="M162,136 Q170,132 178,136" stroke="#291204" stroke-width="2" fill="none" />
+
+  <!-- Nose -->
+  <path d="M148,144 L147,162 C147,166 153,166 153,162 L152,144" stroke="#fba768" stroke-width="1.8" fill="none" />
+  
+  <!-- Warm Smiling Lips with Natural Rose Tone -->
+  <path d="M136,182 Q150,194 164,182" stroke="#e11d48" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M139,182 Q150,191 161,182" fill="#ffffff" />
+  <path d="M137,182 Q150,178 163,182" stroke="#fda4af" stroke-width="1.5" fill="none" />
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="smAvatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="50" fill="url(#smAvatarBg)" />
+  <!-- Hair back -->
+  <path d="M30,35 C25,60 25,80 32,95 C40,95 45,85 50,85 C55,85 60,95 68,95 C75,80 75,60 70,35 Z" fill="#b45309" />
+  <!-- Shoulders / Blazer -->
+  <path d="M15,100 C20,78 35,70 50,70 C65,70 80,78 85,100 Z" fill="#1e293b" />
+  <path d="M42,70 L50,85 L58,70 Z" fill="#ffffff" />
+  <!-- Face -->
+  <circle cx="50" cy="48" r="20" fill="#fed7aa" />
+  <!-- Hair front -->
+  <path d="M28,42 C28,24 40,20 50,20 C60,20 72,24 72,42 C70,30 60,25 50,25 C40,25 30,30 28,42 Z" fill="#d97706" />
+  <!-- Eyes -->
+  <circle cx="43" cy="46" r="2.2" fill="#1e293b" />
+  <circle cx="57" cy="46" r="2.2" fill="#1e293b" />
+  <!-- Smile -->
+  <path d="M45,56 Q50,60 55,56" stroke="#b91c1c" stroke-width="1.8" stroke-linecap="round" fill="none" />
+</svg>

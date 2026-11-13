@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814" />
+      <stop offset="50%" stop-color="#0a1128" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="blueGlowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <filter id="techGlow">
+      <feGaussianBlur stdDeviation="8" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Deep Navy Cybernetic Background -->
+  <rect width="800" height="500" fill="url(#techBg)" />
+
+  <!-- 3D Isometric Perspective Matrix Grid on Right -->
+  <g transform="translate(450, 100)" opacity="0.6">
+    <!-- Grid Planes -->
+    <path d="M150,0 L320,100 L170,260 L0,160 Z" fill="rgba(30, 58, 138, 0.2)" stroke="#1e40af" stroke-width="1.5" />
+    
+    <!-- Isometric Grid lines -->
+    <line x1="50" y1="53" x2="220" y2="213" stroke="#2563eb" stroke-width="1" opacity="0.4"/>
+    <line x1="100" y1="106" x2="270" y2="266" stroke="#2563eb" stroke-width="1" opacity="0.4"/>
+    <line x1="42" y1="140" x2="212" y2="40" stroke="#2563eb" stroke-width="1" opacity="0.4"/>
+    <line x1="84" y1="180" x2="254" y2="80" stroke="#2563eb" stroke-width="1" opacity="0.4"/>
+
+    <!-- Glowing Nodes & Circuit Tracks -->
+    <circle cx="150" cy="120" r="14" fill="#38bdf8" filter="url(#techGlow)"/>
+    <circle cx="150" cy="120" r="6" fill="#ffffff" />
+    
+    <circle cx="240" cy="80" r="10" fill="#818cf8" filter="url(#techGlow)"/>
+    <circle cx="240" cy="80" r="4" fill="#ffffff" />
+
+    <circle cx="90" cy="180" r="10" fill="#a855f7" filter="url(#techGlow)"/>
+    <circle cx="90" cy="180" r="4" fill="#ffffff" />
+
+    <circle cx="210" cy="200" r="8" fill="#06b6d4" filter="url(#techGlow)"/>
+    
+    <!-- Light connection traces -->
+    <path d="M90,180 L150,120 L240,80" stroke="#38bdf8" stroke-width="2.5" fill="none" filter="url(#techGlow)"/>
+    <path d="M150,120 L210,200" stroke="#a855f7" stroke-width="2.5" fill="none" filter="url(#techGlow)"/>
+    <path d="M150,120 L150,30" stroke="#00f0ff" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+
+    <!-- Vertical Data Beams -->
+    <line x1="150" y1="120" x2="150" y2="280" stroke="#38bdf8" stroke-width="2" opacity="0.5"/>
+    <line x1="240" y1="80" x2="240" y2="240" stroke="#818cf8" stroke-width="1.5" opacity="0.4"/>
+    <line x1="90" y1="180" x2="90" y2="300" stroke="#a855f7" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Floating Holographic Hexagon Ring -->
+    <polygon points="150,40 185,60 185,100 150,120 115,100 115,60" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+
+  <!-- Header UI Overlay -->
+  <text x="50" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="20" fill="#ffffff">NEXTGEN<tspan fill="#38bdf8">.AI</tspan></text>
+  <text x="210" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13" fill="#64748b">Platform</text>
+  <text x="285" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13" fill="#64748b">Neural Cloud</text>
+  <text x="385" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="13" fill="#64748b">Docs</text>
+
+  <!-- Left Copy -->
+  <text x="50" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="38" fill="#ffffff">Innovative Solutions</text>
+  <text x="50" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="38" fill="url(#blueGlowGrad)">For a Smarter Future</text>
+  
+  <text x="50" y="255" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#94a3b8">Autonomous AI intelligence pipelines and high-throughput</text>
+  <text x="50" y="278" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#94a3b8">enterprise infrastructure architected for exponential scale.</text>
+
+  <!-- Metrics Badges -->
+  <g transform="translate(50, 315)">
+    <rect width="130" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#38bdf8">✦ 99.999% SLA</text>
+    
+    <rect x="140" width="125" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="155" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#c084fc">⚡ 4.2ms Latency</text>
+  </g>
+
+  <!-- CTA Button -->
+  <rect x="50" y="375" width="165" height="44" rx="22" fill="#2563eb" />
+  <text x="75" y="403" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14" fill="#ffffff">Deploy Model →</text>
+</svg>

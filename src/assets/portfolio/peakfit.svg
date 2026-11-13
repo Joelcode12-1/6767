@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gymBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="neonOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="8" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Dark Gym Studio Background -->
+  <rect width="800" height="500" fill="url(#gymBg)" />
+  
+  <!-- Perspective Gym Flooring & Grid -->
+  <path d="M0,350 L800,350 L800,500 L0,500 Z" fill="#0f172a" />
+  <line x1="0" y1="350" x2="800" y2="350" stroke="#1e293b" stroke-width="2"/>
+  <line x1="150" y1="350" x2="80" y2="500" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="300" y1="350" x2="260" y2="500" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="450" y1="350" x2="440" y2="500" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="600" y1="350" x2="620" y2="500" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="750" y1="350" x2="790" y2="500" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Vertical Neon Light Strips in Studio Background -->
+  <line x1="120" y1="60" x2="120" y2="340" stroke="#06b6d4" stroke-width="4" opacity="0.4" filter="url(#neonGlow)"/>
+  <line x1="280" y1="40" x2="280" y2="340" stroke="#3b82f6" stroke-width="3" opacity="0.3" filter="url(#neonGlow)"/>
+  <line x1="720" y1="80" x2="720" y2="340" stroke="#f97316" stroke-width="4" opacity="0.4" filter="url(#neonGlow)"/>
+
+  <!-- Brand Bar Overlay -->
+  <text x="50" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="22" fill="#ffffff" letter-spacing="1">PEAK<tspan fill="#06b6d4">FIT</tspan></text>
+  <text x="180" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="12" fill="#64748b" letter-spacing="0.5">PROGRAMS</text>
+  <text x="270" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="12" fill="#64748b" letter-spacing="0.5">COACHES</text>
+  <text x="350" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="12" fill="#64748b" letter-spacing="0.5">COMMUNITY</text>
+
+  <!-- Left Copy & Bold Messaging -->
+  <text x="50" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="44" fill="#ffffff">STRONGER</text>
+  <text x="50" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="44" fill="url(#neonCyan)">EVERY DAY</text>
+  
+  <text x="50" y="255" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#94a3b8">Elite strength conditioning & personalized performance tracking.</text>
+  <text x="50" y="278" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15" fill="#94a3b8">Built for athletes, high-achievers, and everyday champions.</text>
+
+  <!-- Stat Pills -->
+  <g transform="translate(50, 315)">
+    <rect width="105" height="34" rx="8" fill="#1e293b" />
+    <text x="15" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38bdf8">14-Day Free</text>
+    
+    <rect x="120" width="130" height="34" rx="8" fill="#1e293b" />
+    <text x="135" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#f97316">★ 4.9 Rating</text>
+  </g>
+
+  <rect x="50" y="375" width="180" height="44" rx="22" fill="url(#neonCyan)" />
+  <text x="78" y="403" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14" fill="#041329">Start Your Trial →</text>
+
+  <!-- Athlete Figure & Dumbbells on Right -->
+  <!-- Dramatic Cyan Rim Glow behind Athlete -->
+  <ellipse cx="600" cy="240" rx="130" ry="170" fill="#06b6d4" opacity="0.15" filter="url(#neonGlow)" />
+  
+  <!-- Stylized Athletic Figure Silhouette -->
+  <!-- Head & Hair bun -->
+  <circle cx="610" cy="140" r="26" fill="#f87171" opacity="0.8" />
+  <ellipse cx="612" cy="115" rx="12" ry="10" fill="#1e293b" />
+  <!-- Athletic Neck & Shoulders -->
+  <path d="M602,165 L575,200 L545,260 L575,270 L595,215 L605,205 L615,205 L625,215 L645,270 L675,260 L645,200 L618,165 Z" fill="#e2e8f0" />
+  
+  <!-- Sports Bra / Athletic Top -->
+  <path d="M580,205 L640,205 L635,265 L585,265 Z" fill="#0f172a" />
+  <path d="M588,205 L632,205 L628,245 L592,245 Z" fill="#1e293b" />
+  <line x1="590" y1="205" x2="600" y2="245" stroke="#06b6d4" stroke-width="2"/>
+  <line x1="630" y1="205" x2="620" y2="245" stroke="#06b6d4" stroke-width="2"/>
+
+  <!-- Toned Core & Waist -->
+  <path d="M585,265 L635,265 L638,320 L582,320 Z" fill="#f87171" opacity="0.85" />
+  <!-- Athletic Leggings -->
+  <path d="M582,320 L638,320 L645,430 L613,430 L610,345 L607,430 L575,430 Z" fill="#090d16" />
+
+  <!-- Dumbbells & Training Equipment Accent -->
+  <g transform="translate(680, 310)">
+    <!-- Dumbbell Handle -->
+    <rect x="0" y="20" width="8" height="40" rx="3" fill="#94a3b8" />
+    <!-- Weight Plates -->
+    <rect x="-14" y="10" width="36" height="12" rx="4" fill="#334155" />
+    <rect x="-10" y="0" width="28" height="10" rx="3" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5" />
+    <rect x="-14" y="58" width="36" height="12" rx="4" fill="#334155" />
+    <rect x="-10" y="70" width="28" height="10" rx="3" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5" />
+  </g>
+</svg>

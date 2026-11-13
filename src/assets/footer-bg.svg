@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="footerSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#04060c" />
+      <stop offset="50%" stop-color="#070c1a" />
+      <stop offset="85%" stop-color="#0b1736" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <linearGradient id="mtnGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="mtnGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="glowHorizon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Night Sky -->
+  <rect width="1600" height="600" fill="url(#footerSky)" />
+
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="100" cy="80" r="1.5" />
+    <circle cx="230" cy="140" r="1.2" />
+    <circle cx="340" cy="60" r="1.8" />
+    <circle cx="490" cy="110" r="1.2" />
+    <circle cx="620" cy="70" r="1.6" />
+    <circle cx="780" cy="130" r="1.3" />
+    <circle cx="910" cy="50" r="2.0" />
+    <circle cx="1050" cy="90" r="1.4" />
+    <circle cx="1200" cy="150" r="1.1" />
+    <circle cx="1340" cy="70" r="1.7" />
+    <circle cx="1470" cy="120" r="1.3" />
+    <circle cx="1550" cy="60" r="1.6" />
+  </g>
+
+  <!-- Blue Horizon Atmospheric Glow -->
+  <ellipse cx="800" cy="360" rx="700" ry="120" fill="url(#glowHorizon)" />
+
+  <!-- Distant Mountain Ridges Layer 1 -->
+  <path d="M0,380 L180,310 L350,360 L520,280 L680,340 L850,260 L1020,330 L1180,270 L1360,340 L1490,290 L1600,330 L1600,600 L0,600 Z" fill="url(#mtnGrad1)" />
+
+  <!-- Foreground Mountain Peaks Layer 2 -->
+  <path d="M0,430 L120,380 L280,440 L440,350 L600,420 L750,330 L920,410 L1100,340 L1260,420 L1420,360 L1600,420 L1600,600 L0,600 Z" fill="url(#mtnGrad2)" />
+
+  <!-- Misty Fog Overlay -->
+  <path d="M0,480 Q400,420 800,460 T1600,440 L1600,600 L0,600 Z" fill="#04060c" opacity="0.85" />
+</svg>
